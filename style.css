@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-size: cover;
+}
+.mainBody{
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 48%;
+  height: 50%;
+  border-radius: 15px;
+  background-color: white;
+}
+.mainBody p{
+  width: 80%;
+  text-align: center;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin: 20px 0px;
+  width: 80%;
+}
+.item div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 50px;
+}
+.item div div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 40px;
+  width: 150px;
+  margin-left: 5px;
+}
+.item div img{
+width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+button.Payment{
+  width: 80%;
+  height: 40px;
+  font-size: 12px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  box-shadow: 0px 17px 5px #e8e8f2;
+}
+button.cancel{
+  width: 80%;
+  height: 40px;
+  font-size: 12px;
+  background-color: transparent;
+  border-color: transparent;
+  margin-top: 8px;
+}
